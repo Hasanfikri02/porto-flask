@@ -1,0 +1,86 @@
+body{
+   font-family: "PT Sans", system-ui;
+}
+.navbar-nav .nav-link {
+    color: aqua !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: aqua !important;
+}
+
+
+
+.banner{
+    background: url("https://www.minimaldesksetups.com/wp-content/uploads/2022/08/DSCF7140-min-1.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20% ;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+
+
+
+.service-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(71, 66, 66, 0.1);
+}
+
+.service-box h4 {
+    color: #6366ff;
+    font-weight: 600;
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Hide the description by default */
+.service-desc {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Show the description on hover */
+.hover-box:hover .service-desc {
+    display: block;
+}
+
+
+
+
+
+.contact{
+    background: url("https://imgsrv2.voi.id/cUZAjJUn27sNviSz7TvIXpQgx3aLftO6QtuyQWU7yf0/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy83MTc0NC8yMDIxMDczMDE3MjMtbWFpbi5qcGVn.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
